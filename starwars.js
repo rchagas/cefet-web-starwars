@@ -5,7 +5,7 @@
 //  - A introdução de cada filme, quando ele for clicado
 //let movies = document.getElementById('movies');
 let movies = document.querySelector('#movies ul');
-let url = 'http://swapi.co/api/films'
+let url = 'https://swapi.co/api/films'
 const guide = [[4,'I'],[5,'II'],[6,'III'],[1,'IV'],[2,'V'],[3,'VI'],[7,'VII']];
 let aux = '';
 for(let i=0 ; i<guide.length ; i++){
